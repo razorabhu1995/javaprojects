@@ -1,0 +1,7 @@
+package multipleException;
+
+public class App {
+	Multi multi1 = new Multi();
+	multi1.run();
+
+}

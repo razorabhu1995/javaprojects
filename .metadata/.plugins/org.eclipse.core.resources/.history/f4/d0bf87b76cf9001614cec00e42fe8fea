@@ -1,0 +1,22 @@
+import java.util.ArrayList;
+import java.util.ListIterator;
+import java.util.Scanner;
+
+public class max {
+
+	public static void main(String[] args) {
+		ArrayList<Integer> a = new ArrayList<>();
+		int max=0;
+		Scanner reader = new Scanner(System.in);
+		a.add(reader.nextInt());
+		ListIterator<Integer> b=a.listIterator();
+		while(b.hasNext()){
+		
+				
+			System.out.println(a);
+		}
+		
+
+	}
+
+}
